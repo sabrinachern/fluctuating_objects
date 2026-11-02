@@ -1,2 +1,4 @@
 # fluctuating_objects
 A repo to show the basics of the code used to perform particle-based simulations for objects with nonequilibrium fluctuations in a diffusive bath.
+
+The simulations performed are off-lattice (continuous position) overdamped Langevin dynamics that implements a cell-list method for the interactions between the diffusive particles. In addition to the basic algorithm, there is also code that allows for changing the system parameters (e.g. adding different potential configurations in the system), and also saves the data (density, density-density correlations, measured forces on objects) into an hdf5 format.
